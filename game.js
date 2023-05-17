@@ -5,7 +5,7 @@ var level = 0;
 var start = true;
 var next = true;
 
-$(document).keypress(function () {
+$(document).keydown(function () {
   if (start) {
     start = false;
     nextSequence();
